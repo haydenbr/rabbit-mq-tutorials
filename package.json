@@ -1,0 +1,15 @@
+{
+  "name": "rabbit-mq-tutorials",
+  "version": "0.0.0",
+  "description": "Just me working through these tutorials https://www.rabbitmq.com/getstarted.html",
+  "main": "index.js",
+  "scripts": {
+    "1-sender": "node ./1-hello-world/send.js",
+    "1-receiver": "node ./1-hello-world/receive.js"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.8.2",
+    "amqplib": "0.8.0"
+  },
+  "type": "module"
+}
